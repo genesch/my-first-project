@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class HelloWorld
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello Gene!");
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter name: ");
+		String name = in.nextLine();
+		System.out.println("Hello " + name + "!");
 	}
 }
