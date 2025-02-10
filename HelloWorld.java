@@ -8,5 +8,6 @@ public class HelloWorld
 		System.out.print("Enter name: ");
 		String name = in.nextLine();
 		System.out.println("Hello " + name + "!");
+		System.out.println("Welcome to COSC 625");
 	}
 }
